@@ -94,7 +94,7 @@ public class Account {
      */
     public void withdraw(double amount, String ssn) throws Exception {
         try {
-            if (amount < 0) throw new Exception("The SSN must be positive.");
+            if (amount < 0) throw new Exception("The amount must be positive.");
             if (amount > balance) throw new Exception("The balance is insufficient.");
             if (!isSsValid(ssn)) throw new Exception("The SSN does not match.");
             balance -= amount;
