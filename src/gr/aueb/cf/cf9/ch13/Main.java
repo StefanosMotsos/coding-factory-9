@@ -7,6 +7,5 @@ public class Main {
         instant.doSomething();
         OnlyOneCodingLazy instant2 =  OnlyOneCodingLazy.getInstance();
         instant2.doSomething();
-
     }
 }
