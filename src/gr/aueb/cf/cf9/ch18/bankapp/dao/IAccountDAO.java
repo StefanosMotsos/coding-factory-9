@@ -9,6 +9,7 @@ public interface IAccountDAO {
     void remove(String iban);
     Optional<Account> findByIban(String iban);
     List<Account> getAllAccounts();
+    long count();
     // Queries
     boolean isAccountExists(String iban);
 }
