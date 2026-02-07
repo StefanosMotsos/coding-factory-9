@@ -1,8 +1,8 @@
-package gr.aueb.cf.cf9.ch18.core.mapper;
+package gr.aueb.cf.cf9.ch18.bankapp.core.mapper;
 
 import gr.aueb.cf.cf9.ch18.bankapp.model.Account;
-import gr.aueb.cf.cf9.ch18.dto.AccountInsertDTO;
-import gr.aueb.cf.cf9.ch18.dto.AccountReadOnlyDTO;
+import gr.aueb.cf.cf9.ch18.bankapp.dto.AccountInsertDTO;
+import gr.aueb.cf.cf9.ch18.bankapp.dto.AccountReadOnlyDTO;
 
 public class Mapper {
     /**
